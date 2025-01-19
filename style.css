@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(45deg, brown,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#form {
+    height: 50vh;
+    width: 300px;
+    margin: 131px auto 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
